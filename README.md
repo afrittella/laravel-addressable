@@ -1,4 +1,4 @@
-# Laravel Addressable 0.5
+# Laravel Addressable 0.6
 
 Laravel Addressable is a simple addresses management package for Laravel 5.4+.
 

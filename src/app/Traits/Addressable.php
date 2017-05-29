@@ -35,7 +35,7 @@ trait Addressable
 
     public function hasAddresses()
     {
-        return (count($this->addresses()->toArray()) > 0);
+        return (count($this->addresses->toArray()) > 0);
     }
 
     public function hasAddressOfType($type)
