@@ -1,7 +1,7 @@
 <?php
 return [
     'tables' => [
-        'addresses' => 'Afrittella\LaravelAddresses\Domain\Models\Address',
+        'addresses' => 'Afrittella\LaravelAddressable\Domain\Models\Address',
     ],
     'types' => [
         'main',
