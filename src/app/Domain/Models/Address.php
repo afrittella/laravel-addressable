@@ -15,6 +15,8 @@ class Address extends Model
 
     public function type(string $type)
     {
+        $types = config('laravel-addressable.types');
+
         // You can add only types specified in configuration file
         if (!in_array($type, $types)) {
             return false;
